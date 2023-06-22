@@ -1,0 +1,134 @@
+@import url(./variables.css);
+
+
+/* ===Section 1 start==== */
+/* .navbar {
+    clear: both;
+    overflow: hidden;
+    word-spacing: 10px;
+    font-size: 20px;
+
+    position: sticky;
+    top: 0px;
+}
+
+.firstitem {
+    float: left;
+}
+
+.navbar a:not(:first-child) {
+    float: right;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.navbar>a {
+    color: #000;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #F14D5D;
+}
+
+.navbar a.icon {
+    margin: 20px 10px 20px 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    display: none;
+} */
+
+/* ======section 1 ends===== */
+
+/* ====== section 2 starts======*/
+
+.section2 {
+    background-image: url(/img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #38302c;
+    background-blend-mode: overlay;
+
+    text-align: center;
+    padding: 113px;
+    color: var(--bs-fourth);
+}
+
+.sec2head1 {
+    font-size: 80px;
+}
+
+.button2 {
+    background-color: var(--bs-first);
+}
+
+.button3 {
+    background-color: var(--bs-second);
+}
+
+/* =========section 2 ends========= */
+
+/* ======Media Queries======== */
+
+/* // Extra Small devices (mobiles) */
+@media only screen and (max-width: 359.75px) {
+
+    /* Section2 */
+    .section2 {
+        padding: 10px;
+    }
+
+    .sec2head1 {
+        font-size: 30px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 360px) and (max-width: 575.9px) {
+
+    /* Section2 */
+    .section2 {
+        padding: 20px;
+    }
+
+    .sec2head1 {
+        font-size: 50px;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+    /* Section2 */
+    .section2 {
+        padding: 30px;
+    }
+
+    .sec2head1 {
+        font-size: 80px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.9px) {
+    /* .section2 {
+        padding: 113px;
+    } */
+
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.9px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (min-width: 1400px) {}

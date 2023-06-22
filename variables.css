@@ -1,0 +1,46 @@
+:root{
+    --bs-first:#2878EB;
+    --bs-second:#F14D5D;
+    --bs-third:#6B6A75;
+    --bs-fourth: #fff;
+    --bs-fifth: #ECF4FF;
+    /* --bs-six: #38302c; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.primary-color{
+    color: var(--bs-first);
+}
+.secondary-color{
+   color: var(--bs-second); 
+}
+.text-color{
+    color: var(--bs-third);
+}
+.boldtext{
+    font-size: 20px;
+}
+.btn{
+    padding: 25px 25px;
+    color: var(--bs-fourth);
+    border: none;
+    /* margin: 20px; */
+    font-size: 15px;
+    font-weight: 500;
+}
+.heading4{
+    text-align: center;
+    letter-spacing: 7px;
+    font-size: 25px;
+}
+.heading1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}

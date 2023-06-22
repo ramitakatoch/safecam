@@ -1,0 +1,37 @@
+
+.forminner1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.formcard1{
+    flex-basis: 55% !important;
+    margin: 10px;
+}
+.forminn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.button{
+    color: var(--bs-fourth);
+    background-color: var(--bs-first);
+}
+.button:hover{
+    background-color: var(--bs-second);
+}
+.formcard2{
+    flex-basis: 45% !important;
+    margin: 10px;
+}
+.formul{
+    list-style: none;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+
+
+

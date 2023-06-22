@@ -1,0 +1,648 @@
+@import url(./variables.css);
+
+/* ===Section 1 start==== */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.menu {
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.menu>a {
+    color: #000;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #F14D5D;
+}
+
+.menu a.icon {
+    margin: 20px 10px 20px 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    display: none;
+}
+
+/* ======section 1 ends===== */
+
+
+/* ====== section 2 starts======*/
+
+.section2 {
+    background-image: url(/img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #38302c;
+    background-blend-mode: overlay;
+
+    text-align: center;
+    padding: 113px;
+    color: #fff;
+}
+
+.sec2head1 {
+    font-size: 80px;
+}
+
+.button2 {
+    background-color: #2878EB;
+}
+
+.button3 {
+    background-color: #F14D5D;
+}
+
+/* =========section 2 ends========= */
+/* ======Contact Form starts ====*/
+.contactform {
+    padding-top: 100px !important;
+}
+
+.formhead4 {
+    color: #2878EB;
+    text-align: center;
+    letter-spacing: 7px;
+    font-size: 25px;
+}
+
+.forminner1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.formcard1 {
+    padding: 30px;
+    flex-basis: 45%;
+    background-color: #ECF4FF;
+}
+
+.row3 textarea {
+    width: 100%;
+    height: 150px;
+    /* resize: none; */
+    padding: 10px 20px;
+}
+
+.formcard2 {
+    flex-basis: 30%;
+    background-color: #ECF4FF;
+    padding: 30px;
+}
+
+/* ======Contact Form starts ====*/
+
+/* ====== section 3 starts======*/
+.section3 {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec3inner1 {
+    width: 50%;
+}
+
+.sec3inner1>img {
+    width: 100%;
+    height: 600px;
+}
+
+.sec3inner2 {
+    width: 50%;
+    margin: 20px;
+}
+
+.sec3inner2>h4 {
+    padding: 10px;
+}
+
+.head2 {
+    letter-spacing: 7px;
+}
+
+.sec3inner2>h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.sec3inner2>p {
+    padding: 10px;
+}
+
+.cardsec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec3card1 {
+    background-color: #2878EB;
+    border-bottom: 5px solid #F14D5D;
+    ;
+}
+
+.sec3card2 {
+    background-color: #F14D5D;
+    border-bottom: 5px solid #2878EB;
+}
+
+.card {
+    flex-basis: 50%;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 55px;
+}
+
+.card>h3 {
+    font-size: 22px;
+}
+
+/* =========section 3 ends========= */
+
+/* ====== section 4 starts======*/
+.section4 {
+    padding: 100px;
+    padding-top: 20px;
+}
+
+.sec4inner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardbgc {
+    flex-basis: 30%;
+    margin: 15px;
+    border-bottom: 5px solid #2878EB;
+    padding: 30px 20px;
+    background-color: #ECF4FF;
+
+    transition-property: all;
+    transition-duration: .8s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.cardbgc:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+.cardbgc>i {
+    font-size: 35px;
+    color: #F14D5D;
+    /* padding: 10px; */
+}
+
+.cardbgc>h4 {
+    padding: 10px;
+}
+
+.secin1 {
+    border: none;
+    color: #2878EB;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cardbgc:hover>* {
+    color: #fff;
+}
+
+/* =========section 4 ends========= */
+
+/* ====== section 5 starts ========*/
+.sec5inner2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.card1 {
+    flex-basis: 30%;
+    border: solid 1px #2878EB;
+    margin: 15px;
+}
+
+.cardheader {
+    background-color: #2878EB;
+    color: #fff;
+}
+
+.cardheader>h2 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.cardheader>p {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.cardheader>p>* {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cardbody {
+    padding-top: 30px;
+}
+
+.cardbody>p {
+    padding: 10px;
+    border-bottom: solid 1px #cbeaf7;
+}
+
+.button4 {
+    padding: 15px 25px;
+    border: none;
+    color: #fff;
+    background-color: #2878EB;
+    position: relative;
+    top: 25px;
+}
+
+.cardheader2 {
+    background-color: #F14D5D;
+}
+
+.card2 {
+    border: solid 1px #F14D5D;
+}
+
+/* =========section 5 ends========= */
+
+/* ====== section 6 starts ========*/
+
+.section6 {
+    background-image: url(/img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #38302c;
+    background-blend-mode: overlay;
+    padding-top: 100px !important;
+    text-align: center;
+
+    color: #fff;
+}
+
+.section6>p {
+    padding: 10px;
+}
+
+/* =========section 6 ends========= */
+
+/* ====== section 7 starts ========*/
+
+.section7 {
+    margin-top: 80px;
+}
+
+.sec7inner2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sec7card {
+    position: relative;
+    margin: 30px;
+}
+
+.card1head>img {
+    width: 100%;
+}
+
+.cardicon {
+    background-color: #fff;
+    /* border: solid 1px black ; */
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    right: -25px;
+    bottom: 150px;
+}
+
+.icon-card {
+    border: solid 1px #F14D5D;
+    margin: 5px 0;
+    line-height: 35px;
+    width: 35px;
+    color: #F14D5D;
+}
+
+.card1body {
+    background-color: #2878EB;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.card1body>p {
+    font-size: 25px;
+}
+
+/* =========section 7 ends========= */
+
+/* ====== section 8 starts ========*/
+
+.section8 {
+    text-align: center;
+}
+
+.sec8inner2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.divicard {
+    flex-basis: 33%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.divicard>img {
+    width: 30%;
+    /* border: solid 1px #fff; */
+    border-style: none;
+    border-radius: 100%;
+    position: absolute;
+    top: -58px;
+    left: 130px;
+
+}
+
+.inner2part2 {
+    background-color: #ECF4FF;
+    padding: 30px;
+    margin: 0px 30px;
+
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+}
+
+.inner2part2:hover {
+    background-color: #2878EB;
+    color: #fff;
+}
+
+.inner2part2:hover>p {
+    color: #fff;
+}
+
+.sec8para1 {
+    padding: 30px 10px;
+    color: #6B6A75;
+}
+
+.sec8para2 {
+    padding: 10px;
+    color: #6B6A75;
+}
+
+/* =========section 8 ends========= */
+
+/* ====== section 9 starts ========*/
+.section9 {
+    padding-top: 70px;
+}
+
+.sec9inner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec9card {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.box1 {
+    width: 100px;
+    height: 80px;
+    background-color: #F14D5D;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+.sec9card>img {
+    width: 100%;
+}
+
+.innerpart {
+    background-color: #2878EB;
+}
+
+.innerpart {
+    font-size: 20px;
+    color: #fff;
+}
+
+.innerpart>p {
+    padding: 10px;
+}
+
+.innerpart>h4 {
+    padding: 10px;
+}
+
+/* =========section 9 ends========= */
+
+/* ====== section 10 starts ========*/
+.section10 {
+    background-color: #120F2D;
+    color: #fff;
+    padding-bottom: 30px !important;
+}
+
+.sec10inner1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec10a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sec10i {
+    width: 20px;
+    color: #2878EB;
+    padding: 10px 20px;
+}
+
+.sec10part1>ul {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.icon10 {
+    display: inline;
+    font-size: 20px;
+}
+
+.borderi {
+    padding: 10px;
+    background-color: #2878EB;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease;
+}
+
+.borderi:hover {
+    background-color: #F14D5D;
+}
+
+.sec10inner2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec10form {
+    width: 600px;
+    height: 50px;
+}
+
+.submitbtn {
+    margin-left: -5px;
+    padding: 16px;
+    background-color: #2878EB;
+    color: #fff;
+    border: none;
+}
+
+/* =========section 10 ends========= */
+
+/* ====== Footer End========*/
+.footerend {
+    background-color: #2878EB;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px !important;
+}
+
+.footerend1>* {
+    color: #fff;
+    display: inline-block;
+}
+
+/* Contact Page */
+
+.forminner1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.formcard1{
+    flex-basis: 55% !important;
+    margin: 10px;
+}
+.forminn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.button{
+    color: var(--bs-fourth);
+    background-color: var(--bs-first);
+}
+.button:hover{
+    background-color: var(--bs-second);
+}
+.formcard2{
+    flex-basis: 45% !important;
+    margin: 10px;
+}
+.formul{
+    list-style: none;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+
+
+/* // Extra Small devices (mobiles) */
+@media only screen and (max-width: 359.75px) {
+    .navbar {
+        clear: both;
+        overflow: hidden;
+    }
+    .navbar>h1.heading{
+        float: left;
+    }
+    .navbar>.menu{
+        float: right;
+    }
+    .menu a {
+        display: none;
+    }
+    .menu button.button1 {
+        display: none;
+    }
+
+    .menu a.icon {
+        display: block;
+        float: right;
+    }
+    .menu.responsive{
+        flex-basis: 100vw;
+    }
+    .menu.responsive a {
+        display: block;
+        text-align: left;
+    }
+}
+
+/* // Extra Small devices (portrait mobiles) */
+@media only screen and (min-width:360px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {}
